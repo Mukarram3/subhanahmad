@@ -1,0 +1,21 @@
+#main{
+    background-color: rgb(12, 210, 210);
+    padding: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#main i{
+    color: black !important;
+}
+/* media query */
+@media only screen and (max-width: 760px) {
+    #main h1 {
+        font-size: 26px;
+    } 
+  }
+  @media only screen and (max-width: 400px) {
+    #main h1 {
+        font-size: 18px;
+    } 
+  }
+    

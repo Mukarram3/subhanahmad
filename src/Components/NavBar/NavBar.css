@@ -1,0 +1,19 @@
+
+#logo{
+    max-width: 120px !important;
+}
+#logo img{
+    height: auto;
+}
+
+.nav-item{
+    padding: 0 40px;
+}
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    .navbar .navbar-nav .nav-item 
+        {
+            padding: 0 !important;
+        }
+  }

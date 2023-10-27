@@ -1,0 +1,43 @@
+#banner{
+    height: 800px;
+    background-image: url('/images/t1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.table_div{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.table_cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.myBtn{
+    border: none;
+    border-radius: 0;
+    padding: 8px 20px;
+   
+}
+.myBtnBlack{
+    border: none;
+    color: white;
+    background-color: black;
+}
+.myBtnWhite{
+    border: none;
+    color: black;
+    background-color: white;
+}
+.myBtnBlack:hover{
+    border: none;
+    color: black;
+    background-color: white;
+}
+.myBtnWhite:hover{
+    border: none;
+    color: white;
+    background-color: black;
+}
